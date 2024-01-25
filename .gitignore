@@ -1,0 +1,10 @@
+# General
+#############
+**/.DS_Store
+
+# Code
+#############
+
+# Folders
+__pycache__/
+

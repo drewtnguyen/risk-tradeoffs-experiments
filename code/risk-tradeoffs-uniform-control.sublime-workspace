@@ -1,0 +1,416 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"se",
+				"section"
+			],
+			[
+				"CERTS",
+				"CERTSETSstep"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/stat_2023_python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/stat_2023_python.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/stat_2023_python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/destati/GitRepos/risk-tradeoffs-uniform-control/code"
+	],
+	"file_history":
+	[
+		"/Users/destati/GitRepos/risk-tradeoffs-uniform-control/code/bootstrap_tumor.py",
+		"/Users/destati/GitRepos/risk-tradeoffs-uniform-control/code/util.py",
+		"/Users/destati/GitRepos/risk-tradeoffs-uniform-control/code/ms-coco-violation.py",
+		"/Users/destati/GitRepos/risk-tradeoffs-uniform-control/code/quantiles_tumor.py",
+		"/Users/destati/GitRepos/risk-tradeoffs-uniform-control/.gitignore",
+		"/Users/destati/GitRepos/risk-tradeoffs-uniform-control/code/compute_losses_tumors.py",
+		"/Users/destati/GitRepos/risk-tradeoffs-uniform-control/code/compute_quantiles_tumor.py",
+		"/Users/destati/GitRepos/risk-tradeoffs-uniform-control/code/interactive_sandbox.ipynb",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Personal Log/01_Grad School Daze.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/to do for project.txt",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Personal Log/04_Research Log.md",
+		"/Users/destati/GitRepos/risk-tradeoffs-uniform-control/code/project_functions.py",
+		"/Users/destati/GitRepos/risk-tradeoffs-uniform-control/paper/intro.tex",
+		"/Users/destati/GitRepos/risk-tradeoffs-uniform-control/paper/main.tex",
+		"/Users/destati/Dropbox/001_Personal_Documents/My Songs/Lilac.txt",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Personal Log/0C_Meeting Notes/Stat 133 Fall 2023/Lab 6/example",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Personal Log/0C_Meeting Notes/Stat 133 Fall 2023/Lab 6/starwarstoy2.txt",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Personal Log/0C_Meeting Notes/Stat 133 Fall 2023/Lab 6/starwarsfwf.txt",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Personal Log/zz_gdaze-template.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/My Songs/Lilac",
+		"/Users/destati/Downloads/2106.15743/Bonus.tex",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Personal Log/0C_Meeting Notes/Will Fithian, Drew Nguyen/9-20-2023/meeting_macros.tex",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Personal Log/0C_Meeting Notes/Stephen, Drew/9-27-2023/slide_macros.tex",
+		"/Users/destati/GitRepos/uniform-risk-control/project_functions.py",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Personal Log/02_Habits.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Personal Log/0C_Meeting Notes/Will Fithian, Drew Nguyen/9-20-2023/meeting_macros copy.tex",
+		"/Users/destati/Downloads/DKW attempt 4",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/song meis talk",
+		"/Users/destati/Downloads/I bought this bike.txt",
+		"/Users/destati/GitRepos/uniform-risk-control/binomial_check.py",
+		"/Users/destati/GitRepos/uniform-risk-control/.gitignore",
+		"/Users/destati/Desktop/Aug 17 Things to get through",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Academic_Projects/graphbh/graphbh_dev/possible improvements.txt",
+		"/Users/destati/Dropbox/001_Personal_Documents/Reference/Useful Numbers.md",
+		"/Users/destati/Desktop/Let I be a unif. sampled index. will notes",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/A model problem for risk tradeoffs project.",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/Validity of empirical risk minimization:",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/An's classes",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Personal Log/0B_Scratch.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Personal Log/zz_Template.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Personal Log/Diary.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Personal Log/Grad School Daze.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Personal Log/Scratchpad.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Personal Log/Template.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/Daily kit (Rev July 11 2023)",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/Basic international travel kit",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/sun may 14. i played games from 5pm to 1am today.",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/May 16",
+		"/Users/destati/Downloads/correct.R",
+		"/Users/destati/Dropbox/001_Personal_Documents/Classes/Y3 2023 Spring/Stat 215B/hw5/assignment-5-transcript.Rt",
+		"/Users/destati/Dropbox/001_Personal_Documents/Classes/Y3 2023 Spring/Stat 215B/hw5/preamble.tex",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Personal Log/aids lifecycle thinking",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/spring hip 2023 elections",
+		"/Users/destati/Downloads/2101.02703/main.tex",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Academic_Projects/graphbh/graphbh_dropbox_code/graphbh_log.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/jam chords",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/what can i say? i want a studio display.",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/to do for old apple stuff:",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/Priorities list Week of March 12, and Spring Break",
+		"/Users/destati/Desktop/aids lifecycle PR/go time/aids lifecycle announcement.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/aids lifecycle announcement.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/march 20",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Academic_Projects/graphbh/graphbh_dropbox_code/copilot autocomplete",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/post bike stolen plan march 9",
+		"/Users/destati/Desktop/options for bike",
+		"/Users/destati/GitRepos/ltt/core/uniform_concentration.py",
+		"/Users/destati/GitRepos/ltt/environment.yml",
+		"/Users/destati/Downloads/ltt/experiments/coco/src/fdr_histogram.py",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/march 3 susan athey's talk",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/march 1",
+		"/Users/destati/Downloads/search_results_assistant_planner.csv",
+		"/Users/destati/Dropbox/001_Personal_Documents/Reference/Money lending loans",
+		"/Users/destati/Desktop/jan 9 to do.txt",
+		"/Users/destati/Dropbox/001_Personal_Documents/Travel/Vietnam (Dec 2022)/People.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/numbes giles told me jan 20 2022.txt",
+		"/Users/destati/Desktop/jan 19 maybe.txt",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/rommell issues",
+		"/Users/destati/Desktop/final week.tx",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/what i said to nhi about ratatouille",
+		"/Users/destati/Desktop/jan 18",
+		"/Users/destati/Dropbox/001_Personal_Documents/Reference/Money lending",
+		"/Users/destati/Dropbox/001_Personal_Documents/Travel/Vietnam (Dec 2022)/VN To Do.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/Writing (Markdown)/Berlin.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/Writing/Old/Gaslamp/The Gaslamp Quarter.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/Writing/Old/Gaslamp/Gaslamp Outline.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/Reference/Grad School Daze GUIDELINES.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/Reference/Inactive Projects.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/Meeting Notes/Fithian Group Meeting/GrBH feedback from group meeting",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Academic_Projects/graphbh/talk_fithian_group_fall2022/fithian_talk_09_30_2022.tex",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/something joanna lopez at hip said",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/aug 16 notes",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/sample code to load LD linkage information",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/Habitability & Workshift Pool Notes 8:16:22.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/House President Finance Notes 8:16:22.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/stephen criticisms of presentation to mike in sept",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/berlin plans 2022",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/hamburg notes from johannes bierbrauer",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/room man-hours summary",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Academic_Projects/graphbh/graphbh_writeup/main.tex",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Personal Log/Research Log.md",
+		"/Users/destati/GitRepos/graphbh/.gitignore",
+		"/Users/destati/Dropbox/009_Archive/Archived My Documents/Pre Jul 2022/000_Log/Scratchpad.md",
+		"/Users/destati/Desktop/email about advising",
+		"/Users/destati/Dropbox/001_Personal_Documents/zzz_Notes drawer/martin's interests",
+		"/Users/destati/Desktop/fsa",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Academic_Projects/graphbh/graphbh_dropbox_code/todo/7-27-22",
+		"/Users/destati/Dropbox/009_Archive/Archived My Documents/Pre Jul 2022/zzz_Pinboard/000_Readme.md",
+		"/Users/destati/Dropbox/009_Archive/Archived My Documents/Pre Jul 2022/zzz_Pinboard/thoughts on habit building",
+		"/Users/destati/Desktop/piano log",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Personal Log/Daily Notes.md",
+		"/Users/destati/Dropbox/009_Archive/Archived My Documents/Pre Jul 2022/000_Log/Daily Notes.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/Writing/Untitled - 3.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/Writing/The Gaslamp Quarter.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/Writing/asd.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Log/Car log.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Log/zz_morning routine_dec 2021",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Log/zz_Interesting videos",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Log/zzz_note.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Log/zzz_A normal week_sep 2_2021.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Log/Review 1 GrBH",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Log/Paper Log.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Log/Meeting Logs/abel bumgarner/11-01-21.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Log/Grad_School_Daze.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Reference/zzz_Notes drawer/stuff in my luggage jun 3",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Log/research log.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Log/Scratchpad.md",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Reference/zzz_Notes drawer/yoav benjamini ISSI seminar ",
+		"/Users/destati/Dropbox/001_Personal_Documents/000_Reference/zzz_Notes drawer/Context Switching.md"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 211.0,
+		"where_history":
+		[
+			"/Users/destati/GitRepos/risk-tradeoffs-uniform-control/code",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".mean()",
+			"datadis",
+			"subsa",
+			"subsample"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SFTP":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 279.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.latextools":
+	{
+		"height": 297.0
+	},
+	"output.markdown":
+	{
+		"height": 156.0
+	},
+	"pinned_build_system": "",
+	"project": "risk-tradeoffs-uniform-control.sublime-project",
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
