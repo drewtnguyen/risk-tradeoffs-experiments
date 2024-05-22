@@ -1,6 +1,6 @@
 # Experiments for "Data-Adaptive Tradeoffs among Multiple Risks in Distribution-Free Prediction"
 
-This repository reproduces the figures in the paper "Data-Adaptive Tradeoffs among Multiple Risks in Distribution-Free Prediction" ([arxiv preprint here](https://arxiv.org/abs/2403.19605)). . 
+This repository reproduces the figures in the paper "Data-Adaptive Tradeoffs among Multiple Risks in Distribution-Free Prediction" ([arxiv preprint here](https://arxiv.org/abs/2403.19605)). 
 
 ## Directory structure
 
@@ -59,7 +59,7 @@ To replicate the experiments of the Introduction and Section 3.2, run
 sh run_experiments_mscoco.sh
 ```
 These scripts populate the `results`
-directory. 
+directory. (The number of simulation runs, and other parameters, can be changed.)
 
 ## Generating figures
 

@@ -147,27 +147,6 @@ def plot_histogram(fn, bins, metricsnpz,
     fig.set_figheight(4)
     plt.savefig(fn, bbox_inches='tight')
 
-
-
-
-
-
-################################
-# Miscoverage with pointwise bounds
-#################################
-
-# mscoco_losses = np.load('../losses/mscoco_losses.npz')
-# tgrid = mscoco_losses['tgrid']
-# pmisc = np.load('../losses/mscoco_pmiscover.npz')
-# ns = [100, 150, 200, 250, 500, 1350]
-
-# losses = ['fnp', 'fdp']
-# for loss in losses:
-#     fixed_t_probs = [pmisc[loss + '_ppointwise_' + str(n)] for n in ns]
-#     tradeoff_t_prob = [pmisc[loss + '_ptradeoff_' + str(n)] for n in ns]
-#     fn = '../figures/' + loss + '_pointwise_miscoverage.pdf'
-#     pointwise_miscoverage_plot(fn, tgrid, ns, fixed_t_probs, tradeoff_t_prob)
-
 ################################
 # Teaser histogram
 #################################

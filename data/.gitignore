@@ -1,3 +1,4 @@
 coco_epochs
 coco_human_readable_labels.npy
 coco_image_examples
+coco
