@@ -11,14 +11,14 @@ NSIM_M=20000    ## Metrics
 
 # First compute the losses (on a grid)
 echo "computing losses..."
-python setup_compute_losses_mscoco.py --ngrid $NGRID
+python3 setup_compute_losses_mscoco.py --ngrid $NGRID
 # Then run the simulations
 echo "computing quantiles..."
-python sims_quantiles_mscoco.py --nsim $NSIM_Q 
+python3 sims_quantiles_mscoco.py --nsim $NSIM_Q 
 echo "computing bootstrap metrics of quantiles..."
-python sims_bootstrap_mscoco.py --nsim $NSIM_B  --nboot $NBOOT
+python3 sims_bootstrap_mscoco.py --nsim $NSIM_B  --nboot $NBOOT
 echo "computing all other metrics..."
-python sims_metrics_mscoco.py --nsim $NSIM_M --nboot $NBOOT
+python3 sims_metrics_mscoco.py --nsim $NSIM_M --nboot $NBOOT
 
 
 

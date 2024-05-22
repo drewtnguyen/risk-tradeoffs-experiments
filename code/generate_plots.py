@@ -17,7 +17,7 @@ def quantiles_plot(fn, ns, xlabels,
         DKW = np.sqrt(np.log(e/0.1) / (2*ns))
         ax[i].loglog(ns, Q[i], linestyle = '--', color = 'green', label = 'True Quantile')
         ax[i].loglog(ns, Qb50[i], linestyle = '-', marker = 'o', color = 'blue', alpha = 0.85, label = 'Bootstrap est.')
-        ax[i].loglog(ns, DKW, linestyle = '--', color = 'gray', label = 'DKW')
+        ax[i].loglog(ns, DKW, linestyle = '--', color = 'gray', label = 'NASM')
         ax[i].fill_between(ns, Qb10[i], Qb90[i], color='lightblue', alpha=0.5)
         ax[i].spines['right'].set_visible(False)
         ax[i].spines['top'].set_visible(False)
@@ -33,7 +33,7 @@ def quantiles_plot(fn, ns, xlabels,
 
 def metrics_barplot(fn, metricsnpz, ylabel, 
                     ns, losstypes, losstypes2, algorithms, 
-                    alglabels, where):
+                    alglabels, where, addline = True):
     fig, ax = plt.subplots(1, len(losstypes), sharex = True, sharey = True)
     # Set the width of the bars
     bar_width = 0.2
@@ -50,7 +50,8 @@ def metrics_barplot(fn, metricsnpz, ylabel,
         ax[i].set_xlabel(losstypes2[i])
         ax[i].set_xticks(algindex + 1.5 * bar_width)
         ax[i].set_xticklabels(alglabels)
-        ax[i].axhline(0.1, color = 'gray', linestyle='--')
+        if addline:
+            ax[i].axhline(0.1, color = 'gray', linestyle='--')
     ax[0].set_ylabel(ylabel)
     ax[-1].legend()
     fig.set_figwidth(15)
@@ -195,7 +196,7 @@ humanlabellist = np.load('../data/coco_human_readable_labels.npy')
 
 # Get images that (probably) match something in the example set
 imgdir = '../data/coco_image_examples/'
-example_idx = np.load('../mscoco_examples_indices.npy', allow_pickle = True)
+example_idx = np.load('../data/coco_examples_indices.npy', allow_pickle = True)
 imglist = os.listdir(imgdir)
 imgints = [int(os.path.splitext(img)[0]) for img in imglist]
 imgints.sort()
@@ -219,7 +220,6 @@ else:
     n = 500
     thats = np.zeros(nreps)
     for i in range(nreps):
-        print(i)
         fnp = mscoco_losses['fnp']
         fpp = mscoco_losses['fpp']
         nrow = fnp.shape[0]
@@ -239,12 +239,12 @@ sns.despine()
 # Add image annotations
 
 #ridx = np.random.choice(len(imgfn_idxs))
-ridx = 46
+ridx = 77
 imgidx = imgfn_idxs[ridx]
 dataidx = example_idx[imgidx]
 imfn = imglist[imgidx]
-print(ridx)
-print(imfn)
+
+
 img = plt.imread(imfn)
 axs[1].axis('off')
 axs[1].imshow(img, aspect='equal')
@@ -340,18 +340,18 @@ plt.savefig(fn, bbox_inches='tight')
 
 # Gaussian    
 
-# gaussian_bs = np.load('../results/gaussian_cdf_bootstrap.npz')
-# gaussian_qs = np.load('../results/gaussian_cdf_quantiles.npz')
-# ns = gaussian_qs['ns']
+gaussian_bs = np.load('../results/gaussian_cdf_quantiles_bootstrap.npz')
+gaussian_qs = np.load('../results/gaussian_cdf_quantiles.npz')
+ns = gaussian_qs['ns']
 
-# rhos = [-0.2, 0.2, 0.6]
-# Q = [gaussian_qs['dependence_' + str(rho)] / np.sqrt(ns) for rho in rhos]
-# Qb10 = [gaussian_bs['bootstrap_q10_r' + str(rho)] / np.sqrt(ns) for rho in rhos]
-# Qb50 = [gaussian_bs['bootstrap_q50_r' + str(rho)] / np.sqrt(ns) for rho in rhos]
-# Qb90 = [gaussian_bs['bootstrap_q90_r' + str(rho)] / np.sqrt(ns) for rho in rhos]
-# xlabels = [r'$\rho$ = ' + str(rho) for rho in rhos]
-# fn = '../figures/gaussian_quantiles.pdf'
-# quantiles_plot(fn, ns, xlabels, Q, Qb10, Qb50, Qb90)
+rhos = [-0.2, 0.2, 0.6]
+Q = [gaussian_qs['dependence_' + str(rho)] / np.sqrt(ns) for rho in rhos]
+Qb10 = [gaussian_bs['bootstrap_q10_r' + str(rho)] / np.sqrt(ns) for rho in rhos]
+Qb50 = [gaussian_bs['bootstrap_q50_r' + str(rho)] / np.sqrt(ns) for rho in rhos]
+Qb90 = [gaussian_bs['bootstrap_q90_r' + str(rho)] / np.sqrt(ns) for rho in rhos]
+xlabels = [r'$\rho$ = ' + str(rho) for rho in rhos]
+fn = '../figures/gaussian_quantiles.pdf'
+quantiles_plot(fn, ns, xlabels, Q, Qb10, Qb50, Qb90)
 
 # MS-COCO
 
@@ -374,30 +374,31 @@ quantiles_plot(fn, ns, xlabels, Q, Qb10, Qb50, Qb90)
 #################################
 
 # Gaussians
-# losstypes = ['dependence_-0.2', 'dependence_0.2', 'dependence_0.6']
-# losstypes2 = [r'$\rho$ = -0.2', r'$\rho$ = 0.2', r'$\rho$ = 0.6']
+losstypes = ['dependence_-0.2', 'dependence_0.2', 'dependence_0.6']
+losstypes2 = [r'$\rho$ = -0.2', r'$\rho$ = 0.2', r'$\rho$ = 0.6']
 
-# algorithms = ['DKW', 'bootstrap', 'locsim', 'pointwise']
-# ns = [30,  300, 3000]
+algorithms = ['DKW', 'bootstrap', 'locsim', 'pointwise']
+alglabels = ['NASM', 'RR', 'RRR', 'pointwise']
+ns = [30,  300, 3000]
 
-# metricsnpz = np.load('../losses/gaussian_cdf_miscover.npz')
-# where = 'anywhere'
-# fn =  '../figures/gaussian_anywhere_miscoverage.pdf'
-# ylabel = 'Anywhere Miscoverage'
-# metrics_barplot(fn, metricsnpz, ylabel, ns, losstypes, losstypes2, algorithms, where)
-
-
-# where = 'selected'
-# fn =  '../figures/gaussian_selected_miscoverage.pdf'
-# ylabel = 'Selected Set Miscoverage'
-# metrics_barplot(fn, metricsnpz, ylabel, ns, losstypes, losstypes2, algorithms, where)
+metricsnpz = np.load('../results/gaussian_cdf_miscover.npz')
+where = 'anywhere'
+fn =  '../figures/gaussian_anywhere_miscoverage.pdf'
+ylabel = 'Anywhere Miscoverage'
+metrics_barplot(fn, metricsnpz, ylabel, ns, losstypes, losstypes2, algorithms, alglabels, where)
 
 
-# Mscoco
+where = 'selected'
+fn =  '../figures/gaussian_selected_miscoverage.pdf'
+ylabel = 'Selected Set Miscoverage'
+metrics_barplot(fn, metricsnpz, ylabel, ns, losstypes, losstypes2, algorithms, alglabels, where)
+
+
+# MSCOCO
 losstypes = ['fnp', 'fpp', 'fdp', 'ss']
 losstypes2 = ['FNR', 'FPR', 'FDR', 'SetSize']
 algorithms = ['DKW', 'bootstrap', 'locsim', 'pointwise']
-alglabels = ['BDKW', 'RR', 'RRR', 'pointwise']
+alglabels = ['NASM', 'RR', 'RRR', 'pointwise']
 ns = [50,  150,  450, 1350]
 
 
@@ -417,4 +418,5 @@ metricsnpz = np.load('../results/mscoco_conservatism.npz')
 where = 'tradeoff'
 fn =  '../figures/mscoco_tradeoff_conservatism.pdf'
 ylabel = 'Tradeoff Conservatism'
-metrics_barplot(fn, metricsnpz, ylabel, ns, losstypes, losstypes2, algorithms, alglabels, where)
+metrics_barplot(fn, metricsnpz, ylabel, ns, losstypes, losstypes2, algorithms, alglabels, where,
+    addline = False)

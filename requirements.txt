@@ -4,3 +4,5 @@ numba
 gdown
 scipy
 tqdm
+scikit-learn
+seaborn
